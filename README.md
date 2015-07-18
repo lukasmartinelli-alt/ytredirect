@@ -26,3 +26,9 @@ Run server and visit `localhost:5000`.
 ```
 python server.py
 ```
+
+Or use Docker.
+
+```
+docker run -p 5000:5000 lukasmartinelli/ytredirect
+```
