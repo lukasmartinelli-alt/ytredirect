@@ -1,1 +1,3 @@
-Get best youtube video download link.
+# ytredirect
+
+Redirect to the best available Youtube download URL
