@@ -6,6 +6,10 @@ app = Flask(__name__)
 @app.route("/")
 def download():
     url = request.args.get("url")
+
+    if not url:
+        return app.send_static_file('index.html')
+
     video = pafy.new(url)
     best = video.getbest(preftype="mp4")
     download_url = best.url_https

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Download any Youtube Video directly</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
+  <div class="section get-help">
+    <div class="container">
+      <br />
+      <h3 class="section-heading">Download any Youtube Video</h3>
+      <p class="section-description">Pass the original Youtube URL and get redirected to the best quality download!</p>
+      
+      <form method="get">
+        <label for="url">URL</label>
+        <input class="u-full-width" placeholder="http://www.youtube.com/watch?v=8TCxE0bWQeQ" name="url" id="url" type="url">
+        <input class="button-primary" value="Redirect" type="submit">
+      </form>
+
+      <h4>Use Cases</h4>
+      <p>Download video with curl</p>
+      <pre><code>curl -Lo video.mp4 "ytredirect.lukasmartinelli.ch?url=http://www.youtube.com/watch?v=8TCxE0bWQeQ"</code></pre>
+      <p>Use an IFTTT recipe to download your favorite Youtube videos</p>
+  </div>
+  <a href="https://github.com/lukasmartinelli/ytredirect"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>
