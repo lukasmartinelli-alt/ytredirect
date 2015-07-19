@@ -1,13 +1,13 @@
 # ytredirect
 
 Redirect to the best [Youtube](https://youtube.com) direct media URL with the help of [pafy](https://github.com/mps-youtube/pafy).
-Try it at [http//ytredirect.tk](http//ytredirect.tk).
+Try it at http://ytredirect.tk.
 
 ![Screenshot](screenshot.png)
 
 ## Use Cases
 
-Download any video with curl.
+Download video with curl.
 
 ```
 curl -Lo video.mp4 "ytredirect.tk?url=http://www.youtube.com/watch?v=8TCxE0bWQeQ"
