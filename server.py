@@ -1,7 +1,11 @@
-from flask import Flask, redirect, request
+import os
 import pafy
+from flask import Flask, redirect, request
+
 
 app = Flask(__name__)
+port = int(os.getenv("VCAP_APP_PORT", "5000"))
+
 
 @app.route("/")
 def download():
@@ -17,4 +21,4 @@ def download():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=port)
