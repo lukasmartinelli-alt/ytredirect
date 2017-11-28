@@ -1,7 +1,9 @@
-# ytredirect
+# ytredirect ![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)
+
+> :warning: This repository is no longer maintained by Lukas Martinelli.
 
 Redirect to the best [Youtube](https://youtube.com) direct media URL with the help of [pafy](https://github.com/mps-youtube/pafy).
-Try it at http://ytredirect.lukasmartinelli.ch.
+~~Try it at http://ytredirect.lukasmartinelli.ch.~~
 
 ![Screenshot](screenshot.png)
 
